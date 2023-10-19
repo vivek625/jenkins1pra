@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-10-17 16:39:47.887 UTC</timestamp>
+  <md5sum>4ee95763edaeec3c74f01972bf9ba7c2</md5sum>
+  <fileName>Credential id=github-jenkins name=ubuntu</fileName>
+  <usages>
+    <entry>
+      <string>github1ss</string>
+      <ranges>1-14</ranges>
+    </entry>
+    <entry>
+      <string>jenkinss</string>
+      <ranges>1-2,5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

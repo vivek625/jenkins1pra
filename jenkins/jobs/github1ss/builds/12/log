@@ -1,0 +1,24 @@
+Started by user [8mha:////4AryeFqG6LWZwsS83WlogOvpQUq8IYq3wmZHuKeKkdOPAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/github1ss
+The recommended git tool is: NONE
+using credential github-jenkins
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/github1ss/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vivek625/jenkinsTraining.git # timeout=10
+Fetching upstream changes from https://github.com/vivek625/jenkinsTraining.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+[8mha:////4A/9GfZDwXFbWTSAg7Lmmz+XdFlc9eiGQrmEEp/9BBAiAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgmEo2IFE6fjN+19fes8vTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+Kx+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6AcdrEU/1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/vivek625/jenkinsTraining.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 9bbe931aa3f62545f3a1afc78f62ece68a322790 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9bbe931aa3f62545f3a1afc78f62ece68a322790 # timeout=10
+Commit message: "Create jenkins_script"
+ > git rev-list --no-walk 9bbe931aa3f62545f3a1afc78f62ece68a322790 # timeout=10
+[github1ss] $ /bin/sh -xe /tmp/jenkins17467592554482767441.sh
++ echo jai shree ram
+Finished: SUCCESS
